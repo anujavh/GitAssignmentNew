@@ -1,0 +1,92 @@
+ - Provide commands for below operation
+ 
+- Command to initialize git repository
+$ git init
+****************************************
+- Command to clone remote repository
+$ git clone
+****************************************
+- Command to stage all changes
+command to check branches
+$ git branch -a
+
+add file
+$ git add 1.txt
+git add .
+
+
+commit file
+$ git commit -m "file created"
+
+to check status
+$ git status
+
+push changes to server
+$ git push
+git push --force
+
+pull changes from the server 
+$ git pull
+
+copy of server to local machine
+$ git clone
+
+rename a file
+$ git mv 1.txt 2.txt
+
+remove a file
+$ git rm 2.txt
+
+****************************************
+- Command to view state of working directory and staging area
+$ git status
+
+****************************************
+- Command to create new branch
+$ git branch branchname
+$ git checkout branchname
+
+****************************************
+- Command to change branch
+$ git checkout branchname
+
+****************************************
+- Command to clean staging area
+$ git clean
+$git clean -fdx
+git reset 
+git reset –hard
+**************************************** 
+
+- Command to get commits and changes from remote branch (It should not merge changes in current branch).
+$ git fetch
+
+- Command to get commits and changes from remote branch (It should merge changes in current branch).
+$ git merge
+git checkout branch1
+git merge branch2
+git push origin branch1
+
+****************************************
+- Command to cherry pick commit which SHA => 092018283103810930
+$ git cherry-pick 092018283103810930
+****************************************
+
+- Command to push branch
+$ git push -u origin branchname
+****************************************
+
+- Command to delete remote branch
+$ git push origin --delete branchname
+****************************************
+
+- Command to do iterative rebase
+git rebase -i
+$git fetch origin main
+git checkout my-feature
+git rebase origin/main
+git rebase -i
+
+****************************************
+
+
